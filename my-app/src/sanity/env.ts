@@ -13,7 +13,7 @@ export const apiVersion =
 // )
 
 export const projectId = assertValue(
-  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'l9i9p73k',
   'Missing environment variable: NEXT_PUBLIC_SANITY_PROJECT_ID'
 )
 
