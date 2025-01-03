@@ -15,7 +15,7 @@ const Hero = async () =>{
           description,
           "slug": slug.current,
           "imageUrl": image.asset->url
-        }[0]`)
+        }[1]`)
 
     return(
         <main>
